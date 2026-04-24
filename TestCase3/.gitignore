@@ -1,0 +1,8 @@
+*.log
+.env
+.env.*
+dist/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

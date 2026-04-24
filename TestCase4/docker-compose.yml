@@ -1,0 +1,9 @@
+services:
+  nodejs-api:
+    build:
+      context: ../TestCase3
+      dockerfile: ../TestCase4/Dockerfile
+    image: nodejs-api
+    container_name: nodejs-api
+    ports:
+      - "8080:8080"
